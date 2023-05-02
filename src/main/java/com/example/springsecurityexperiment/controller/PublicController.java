@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("public")
-public class AuthController {
+public class PublicController {
     // Autowire AuthenticationManager
     // Autowire JwtTokenUtil
     // Autowire userViewMapper

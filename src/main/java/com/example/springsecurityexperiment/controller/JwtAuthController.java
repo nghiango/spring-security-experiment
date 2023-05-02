@@ -5,15 +5,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("hello")
-public class HelloController {
+@RequestMapping("jwt")
+public class JwtAuthController {
 
     @GetMapping("user")
     public String helloUser() {
-        return "Hello";
+        return "in JWT User";
     }
     @GetMapping("admin")
     public String helloAdmin() {
-        return "Hello Admin";
+        return "in JWT Admin";
     }
 }
